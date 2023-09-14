@@ -1,3 +1,14 @@
+# 写在前面
+```
+docker build -t image-chat-ofc .
+
+docker run -d -p 4002:3000 \
+   -e OPENAI_API_KEY=nTXOtuIsUhqpkc8Z2a1468625fE44308A2A8691b31240eC1 \
+   -e CODE=openfox \
+   image-chat-ofc
+
+```
+
 <div align="center">
 <img src="./docs/images/icon.svg" alt="icon"/>
 
