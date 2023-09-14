@@ -306,7 +306,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "[Chat.OpenFox.Cloud](https://openfox.cloud) - Professional ChatGPT API Conversation Tool \n \nUsage: Go to the [Token](https://openfox.cloud/token) page to create a new token; Open the [Settings](/#/settings) page, locate the API KEY section, and enter to use.",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>

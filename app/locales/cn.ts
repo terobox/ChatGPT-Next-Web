@@ -301,7 +301,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "[Chat.OpenFox.Cloud](https://openfox.cloud) - 专业的ChatGPT对话工具 \n \n使用方法：前往[令牌](https://openfox.cloud/token)页面，创建新令牌；打开[设置](/#/settings)页面，找到API KEY一栏，输入即可使用。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
