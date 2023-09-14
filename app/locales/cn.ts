@@ -6,9 +6,8 @@ const isApp = !!getClientConfig()?.isApp;
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+    Unauthorized:
+      "[Chat.OpenFox.Cloud](https://openfox.cloud) - 专业的ChatGPT对话工具 \n \n使用方法：前往[令牌](https://openfox.cloud/token)页面，创建新令牌；打开[设置](/#/settings)页面，找到API KEY一栏，输入即可使用。",
   },
   Auth: {
     Title: "需要密码",

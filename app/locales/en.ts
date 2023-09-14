@@ -8,9 +8,8 @@ const isApp = !!getClientConfig()?.isApp;
 const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
-    Unauthorized: isApp
-      ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
+    Unauthorized:
+      "[Chat.OpenFox.Cloud](https://openfox.cloud) - Professional ChatGPT API Conversation Tool \n \nUsage: Go to the [Token](https://openfox.cloud/token) page to create a new token; Open the [Settings](/#/settings) page, locate the API KEY section, and enter to use.",
   },
   Auth: {
     Title: "Need Access Code",
