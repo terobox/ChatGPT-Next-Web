@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export const OPENAI_URL = "api.openai.com";
+export const OPENAI_URL = "openfox.cloud";
 const DEFAULT_PROTOCOL = "https";
 const PROTOCOL = process.env.PROTOCOL || DEFAULT_PROTOCOL;
 const BASE_URL = process.env.BASE_URL || OPENAI_URL;
@@ -10,7 +10,7 @@ export async function requestOpenai(req: NextRequest) {
   const controller = new AbortController();
   const authValue = req.headers.get("Authorization") ?? "";
   const openaiPath = `${req.nextUrl.pathname}${req.nextUrl.search}`.replaceAll(
-    "https://openfox.cloud",
+    "/api/openai/",
     "",
   );
 
